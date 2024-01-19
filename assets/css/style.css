@@ -4,12 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: url(../img/sfondo.png);
   width: 100%;
   background-position: center;
   padding: 15px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 /* HEADER */
@@ -17,15 +19,45 @@ header {
   background: rgb(69, 155, 192);
   background: linear-gradient(0deg, rgba(69, 155, 192, 1) 0%, rgba(46, 106, 132, 1) 100%);
   width: 100%;
-  text-align: center;
-  padding: 15px;
+  padding: 28px;
+  box-shadow: 0px 8px 4px -4px rgba(40, -28, -152, 0.7);
 }
-.top {
-  color: white;
+
+h1 {
+  line-height: 3.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+h5 {
+  color: #aaa;
+}
+
+.blabla {
+  padding-block-start: 2rem;
+}
+
+#menuu {
+  padding: 5px;
 }
 
 #logo {
-  width: 50%;
+  width: 77%;
+}
+
+.menutop {
+  padding: 10px;
+}
+
+.top {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  line-height: 1.5rem;
 }
 
 /* MAIN */
@@ -33,6 +65,7 @@ main {
   width: 100%;
   background: rgb(255, 255, 255);
   text-align: left;
+  padding: 15px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 ul,
@@ -55,9 +88,7 @@ article {
   width: 100%;
   background: rgb(255, 255, 255);
   text-align: center;
-}
-p {
-  text-align: left;
+  padding: 15px;
 }
 /* ELEMENTI NELL' ASIDE */
 aside {
@@ -68,3 +99,15 @@ input {
   width: 60%;
 }
 /* FOOTER */
+h3 {
+  background: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.threebox {
+  background: rgb(228, 225, 225);
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
